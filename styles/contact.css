@@ -1,0 +1,34 @@
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 100px;
+    width: 700px;
+}
+
+.contact-grid-wrapper > .company-metadata-sidebar-wrapper > .logo img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper{
+    font-size: 'Ubuntu Condesed',sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 0.8em;
+    text-align: right;
+    margin: 10px;
+    align-items: center;
+}
+
+.company-details-wrapper  i{
+    /* font-size: 2em; */
+    color: #cea135;
+}

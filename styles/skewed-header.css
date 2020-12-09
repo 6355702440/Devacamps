@@ -1,0 +1,54 @@
+.skewed-header{
+  position: relative;
+  height: 250px;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.skewed-header > .header-bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: 100%;
+  filter: brightness(50%);
+  transform: skewY(-6deg);
+  transform-origin: top left ;
+
+}
+
+.skewed-header > .skewed-wrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* padding-right: -100px; */
+}
+
+.skewed-header > .skewed-wrapper > .skewed-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+}
+
+.skewed-header > .skewed-wrapper > .skewed-header-content > .links-wrapper {
+  font-size: 0.7em;
+
+}
+
+.skewed-header > .skewed-wrapper > .skewed-header-content > .heading-wrapper {
+  background-color: #cea135;
+  color: #11122b;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 140px;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+

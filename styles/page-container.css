@@ -1,0 +1,28 @@
+/* page-container */
+.page-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-container > .content-wrapper{
+    width: 644px;
+    font-size: 0.75em;
+    /* color: gray; */
+    letter-spacing: 2px;
+    
+  }
+  .page-container > .content-wrapper > #chef{
+    height: 180px;
+    width: 280px;
+    float: left;
+    margin: 22px 24px 7px 0px;
+    border: 1px solid #cea135;
+  }
+  
+  .page-container  > .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+
+
+  

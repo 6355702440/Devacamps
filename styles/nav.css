@@ -1,0 +1,123 @@
+.navigation-wrapper{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    margin: 0px;
+    font-family: 'Ubuntu Condesed', sans-serif;
+    font-size: 12px;
+    height: 190px;
+
+}
+/* Left column Stlyes */
+.navigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation-wrapper > .left-column > .icon{
+    margin-right: 5px;
+}
+
+.navigation-wrapper > .left-column > .icon i{
+    font-size: 1.5em;
+}
+
+.navigation-wrapper  > .left-column > .contact-hour-wrapper > .phone{
+    font-size: 1.3em;
+}
+
+.navigation-wrapper  > .left-column > .contact-hour-wrapper > .hour{
+    font-size: 0.8;
+}
+
+.navigation-wrapper > .left-column > .contact-hour-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.navigation-wrapper > .left-column > .contact-hour-wrapper{
+    color: #858585;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+}
+
+/* Center Column Styles */
+.navigation-wrapper > .center-column  > .banner-image img{
+    width: 216px;
+    height: 100%;
+}
+
+.navigation-wrapper > .center-column  > .banner-image{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-links {
+    width: 70px; 
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.links-wrapper > .nav-links a{
+    transition: 0.5s;
+    color:#cbcbcb;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-links a:hover{
+    color: yellow;
+    letter-spacing: 2px;
+}
+
+/* Right Column Styles */
+.navigation-wrapper > .right-column{
+    display: flex;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    text-align: right;
+
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover{
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 10px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a{
+    color: white;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover{
+   color: #cea135;
+}

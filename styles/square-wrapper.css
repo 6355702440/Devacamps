@@ -1,0 +1,37 @@
+/* Square-Wrapper */
+.squares-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares{
+    width: 644px;
+    
+}
+
+.squares-wrapper > .squares > .square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+
+}
+.square > .img-wrapper img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper{
+    font-size: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper h1{
+    color: #cea135;
+    /* margin-top: -4.08px; */
+}
+

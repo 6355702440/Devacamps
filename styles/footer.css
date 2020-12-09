@@ -1,0 +1,77 @@
+.footer-wrapper{
+    background-color: #11112b;
+    color: #cbcbcb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    margin-top: -4px;
+    font-size: 0.55em;
+}
+
+.footer-wrapper > .logo-footer img{
+    height: 100px;
+    width: 100px;
+    filter: brightness(50%);
+}
+
+.footer-wrapper > .footer-phone-hours span{
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    color: #c2bbbb;
+}
+
+.footer-wrapper > .footer-phone-hours > .hours{
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer-wrapper > .footer-link-wrapper{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-wrapper > .footer-link-wrapper > .footer-links a{
+    color: #c2bbbb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .footer-link-wrapper > .footer-links {
+    width: 25px;
+    text-align: center;
+}
+
+.footer-wrapper > .footer-link-wrapper > .footer-links a:hover{
+    color: #cea135;
+    letter-spacing: 1px;
+}
+
+.footer-wrapper > .social-media-icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-wrapper > .social-media-icons a{ 
+    color: #c2bbbb;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 2em;
+    margin: 15px;
+}
+
+.footer-wrapper > .social-media-icons a:hover{ 
+    color: #cea135;
+}
+
+.footer-wrapper > .copyright-wrapper{
+    font-size: 0.5px;
+}
+   
